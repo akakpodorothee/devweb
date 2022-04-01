@@ -1,0 +1,34 @@
+.ad{ 
+display: grid;
+gap: 5px 5px; 
+grid-template-columns: 75px 600px 75px;
+grid-template-rows: 20% 20% 400px 20%;
+grid-template-areas: 
+"hearder hearder hearder"
+"gauche entree droit"
+"gauche form droit"
+"footer footer footer";  
+}
+.hearder{
+    grid-area: hearder;
+    background-color: red;
+}
+.gauche{
+    grid-area: gauche; 
+    background-color: green;
+}
+.droit{
+    grid-area: droit; 
+    background-color: yellow;
+}
+.form{
+    grid-area: form; 
+    background-color:violet;
+}
+.footer{
+    grid-area: footer; 
+    background-color: blueviolet;
+}.entree{
+    grid-area: entree; 
+    background-color:blanchedalmond; 
+}
