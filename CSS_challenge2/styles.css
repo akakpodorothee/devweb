@@ -1,0 +1,27 @@
+body{
+    background: #f3ac3c;
+    display: grid;
+}
+.grand{
+    width: 200px;
+    height: 200px;
+    background-color: #1A4343;
+    position: relative;
+    margin: auto;
+    top: 100px;
+}
+.moyen{
+width: 100px;
+height: 100px;
+background-color: #998235;
+margin: auto;
+position: relative;
+}
+.petit{
+    width: 50px;
+    height: 50px;
+    background-color: #F3AC3C;
+    position: relative;
+    margin: auto;
+    bottom: 50px;
+}
